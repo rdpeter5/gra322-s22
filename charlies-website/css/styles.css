@@ -10,6 +10,8 @@ body {
  }
 
  header {
+     display: grid;
+     grid-template-columns: 75% 25%;
      background: #CEB6A0;
      max-width: 900px;
      margin: auto;
@@ -21,7 +23,15 @@ body {
      font-weight: 700;
      font-size: 1.5rem;
      text-transform: lowercase;
-     margin-top: 4rem;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+     margin-left: 1rem;
+ }
+
+ button {
+    background: #CEB6A0;
+    font-size: 1.5rem;
+    color: #54573C;
  }
 
 .title {
