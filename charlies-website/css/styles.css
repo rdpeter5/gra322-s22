@@ -94,7 +94,7 @@ h1 {
  }
 
  .prices {
-     text-align: right;
+     text-align: left;
  }
 
 #landing-text-inner {
@@ -105,15 +105,10 @@ h1 {
      color:#888;
  }
 
- .menu {
+ .displayed-menu {
      display: grid;
+     grid-template-columns: 50% 50%;
      gap: 1rem;
-     grid-template-areas: 
-     "menu"
-     "items prices"
-     "items prices"
-     "items prices"
-     ;
  }
 
  .btn {
@@ -136,7 +131,6 @@ h1 {
      color: #A4401C;
      font-weight: 300;
      font-size: 1.2rem;
-     text-transform: lowercase;
      margin: 0;
      padding: 1rem;
  }
