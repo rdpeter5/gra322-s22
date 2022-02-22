@@ -37,12 +37,21 @@ body {
 .title {
      color: #54573C;
      font-weight: 700;
-     font-size: 5rem;
+     font-size: 4rem;
      text-align: right;
      text-transform: lowercase;
      margin-top: 0;
      margin-right: 1rem;
 }
+
+#landing-text-inner {
+    margin-top: 1rem;
+}
+
+#landing-text h2 {
+    color:#888;
+}
+
 h1 {
      color: #54573C;
      font-weight: 700;
@@ -105,14 +114,6 @@ h1 {
 
  .prices {
      text-align: left;
- }
-
-#landing-text-inner {
-     margin-top: 4rem;
- }
-
-#landing-text h2 {
-     color:#888;
  }
 
  .displayed-menu {
