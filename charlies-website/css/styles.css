@@ -39,19 +39,11 @@ body {
 .title {
      color: #54573C;
      font-weight: 700;
-     font-size: 4rem;
+     font-size: 6rem;
      text-align: right;
      text-transform: lowercase;
      margin-top: -2rem;
      margin-right: 2rem;
-}
-
-#landing-text-inner {
-    margin-top: 1rem;
-}
-
-#landing-text h2 {
-    color:#888;
 }
 
 h1 {
@@ -61,6 +53,11 @@ h1 {
      text-transform: lowercase;
      margin-top: 4rem;
  }
+
+.main-title{
+    margin-top: 0;
+    font-size: 2rem;
+}
 
  h2 {
      color: #A4401C;
