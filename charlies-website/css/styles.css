@@ -7,6 +7,7 @@
 body {
      font-family: 'Hepta Slab', serif;
      margin:0;
+     margin-left: 1rem;
      background: #FAF3DE;
      height: auto;
  }
@@ -53,6 +54,7 @@ h1 {
      font-size: 1.5rem;
      text-transform: lowercase;
      margin-top: 4rem;
+     margin-left: 2rem;
  }
 
 .main-title{
@@ -82,6 +84,8 @@ h1 {
      font-size: 1.2rem;
      text-transform: lowercase;
      margin: 0;
+     margin-left: 2rem;
+     margin-right: 2rem;
  }
 
  img {
@@ -114,6 +118,7 @@ h1 {
      text-align: right;
      padding-right: 2rem;
      padding-left: 2rem;
+     margin-left: 2rem;
  }
 
  .prices {
@@ -124,6 +129,7 @@ h1 {
      display: grid;
      grid-template-columns: 50% 50%;
      gap: 1rem;
+     margin-left: 2rem;
  }
 
 
@@ -135,3 +141,37 @@ h1 {
      margin: 0;
      padding: 1rem;
  }
+
+.locations-and-hours {
+    color: #A4401C;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.address {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.weekday {
+    margin-bottom: 1rem;
+}
+
+.weekend {
+    margin-bottom: 1rem;
+}
+
+.contact-us {
+    color: #A4401C;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 40px; 
+    text-transform: capitalize;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 9rem;
+    padding-bottom: 5rem;
+}
