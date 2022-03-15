@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@300;500;700&display=swap');
+
+ html {
+     scroll-behavior: smooth;
+ }
+
+body {
+     font-family: 'Hepta Slab', serif;
+     margin:0;
+     margin-left: 1rem;
+     background: #FAF3DE;
+     height: auto;
+ }
+
+ header {
+     display: grid;
+     grid-template-columns: 75% 25%;
+     background: #CEB6A0;
+     max-width: 900px;
+     margin: auto;
+     
+ }
+
+ .header-title {
+     color: #54573C;
+     font-weight: 700;
+     font-size: 1.5rem;
+     text-transform: lowercase;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+     margin-left: 1rem;
+ }
+
+ button {
+    background: #CEB6A0;
+    font-size: 1.5rem;
+    color: #54573C;
+    border: none;
+ }
+
+.title {
+     color: #54573C;
+     font-weight: 700;
+     font-size: 6rem;
+     text-align: right;
+     text-transform: lowercase;
+     margin-top: -2rem;
+     margin-right: 2rem;
+}
+
+h1 {
+     color: #54573C;
+     font-weight: 700;
+     font-size: 1.5rem;
+     text-transform: lowercase;
+     margin-top: 4rem;
+     margin-left: 2rem;
+ }
+
+.main-title{
+    margin-top: 0;
+    font-size: 10vw;
+}
+
+ h2 {
+     color: #A4401C;
+     font-weight: 500;
+     font-size: 1.2rem;
+     text-transform: capitalize;
+     margin-top: 2rem;
+ }
+
+ p {
+     color: #A4401C;
+     font-weight: 300;
+     font-size: 1.2rem;
+     text-transform: lowercase;
+     margin: 0;
+ }
+
+ .info {
+     color: #54573C;
+     font-weight: 300;
+     font-size: 1.2rem;
+     text-transform: lowercase;
+     margin: 0;
+     margin-left: 2rem;
+     margin-right: 2rem;
+ }
+
+ img {
+     display: block;
+     width: 100%;
+ }
+
+ main {
+     max-width: 900px;
+     margin: auto;
+     box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1),
+     -30px 0px 40px rgba(0, 0, 0, 0.1);
+ }
+
+ #landing {
+     background-image: url(../img/coffee-pour-color.jpg);
+     background-position: center center;
+     background-size: cover;
+     text-align:right;
+     height: 120vw;
+     margin-top: 4rem;
+ }
+
+ .landing-text {
+     display: flex;
+     flex: 0 1  40vw;
+     height: 50vh;
+     justify-content: center;
+     align-items: center;
+     text-align: right;
+     padding-right: 2rem;
+     padding-left: 2rem;
+     margin-left: 2rem;
+ }
+
+ .prices {
+     text-align: left;
+ }
+
+ .displayed-menu {
+     display: grid;
+     grid-template-columns: 50% 50%;
+     gap: 1rem;
+     margin-left: 2rem;
+ }
+
+
+ ul {
+     list-style-type: none;
+     color: #A4401C;
+     font-weight: 300;
+     font-size: 1.2rem;
+     margin: 0;
+     padding: 1rem;
+ }
+
+.locations-and-hours {
+    color: #A4401C;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.address {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.weekday {
+    margin-bottom: 1rem;
+}
+
+.weekend {
+    margin-bottom: 1rem;
+}
+
+.contact-us {
+    color: #A4401C;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 40px; 
+    text-transform: capitalize;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 9rem;
+    padding-bottom: 5rem;
+}
