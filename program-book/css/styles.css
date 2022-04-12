@@ -1,3 +1,110 @@
 .current-page {
     font-weight:bold
 }
+
+body {
+    color: #707070;
+    font-family: agenda,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 900px;
+     margin: auto;
+    
+}
+
+header{
+    background-color: #d6d6d6;
+    max-width: 900px;
+    Padding: 1rem 3rem 1rem 3rem;
+}
+
+.top-bar {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    margin: auto;
+}
+
+button {
+    background: none;
+    font-size: 1.5rem;
+    color: #707070;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 2rem;
+}
+
+.list-1 {
+    margin-left: 0;
+}
+
+.list-2 {
+    margin-left: 1rem;
+}
+
+.list-3 {
+    margin-left: 2rem;
+}
+
+.list-4 {
+    margin-left: 3rem;
+}
+
+.list-5 {
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.title {
+    margin: 2rem 3rem;
+    max-width: 900px;
+}
+
+.subtle {
+    margin-bottom: 1rem;
+    max-width: 900px;
+}
+
+
+
+.process {
+    display: flex;
+    margin: 2rem 3rem;
+    max-width: 900px;
+}
+
+th {
+    padding-right: 2rem;
+}
+
+.final {
+    background-color: #d6d6d6;
+    padding: 0rem 3rem 3rem 3rem;
+    line-height: 4rem;
+    margin: 2rem 0rem;
+    max-width: 900px;
+}
+
+.final-image {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+footer {
+    margin: 2rem 3rem;
+    padding-bottom: 3rem;
+    max-width: 900px;
+}
+
+.program {
+    margin-bottom: 1rem;
+    max-width: 900px;
+}

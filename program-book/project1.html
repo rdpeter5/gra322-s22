@@ -11,6 +11,7 @@
   <!-- Load Styles -->
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="fontawesome/css/all.css">
+  <link rel="stylesheet" href="https://use.typekit.net/qbg2jhz.css">
   <link rel="stylesheet" href="css/styles.css">
 
 </head>
@@ -18,18 +19,36 @@
 <body>
   <!-- Add your content here -->
   <header>
-    <h2>Ryan Peterson</h2>
+    <div class=top-bar>
+      <h2>Ryan Peterson</h2>
+      <button class="menu-button"><span class="fa fa-bars"></span></button>
+    </div>
     <nav>
       <ul>
-        <li ><a href="index.html" title="Home">Home</a></li>
-        <li><a href="project1.html" title="Project 1" class="current-page">Project 1<img src="https://picsum.photos/200/300" alt="menu item"/></a></li>
+        <li><a href="index.html" title="Home" class="list-1">Home</a></li>
+        <p class="list-2">Fall 2021</p>
+        <p class="list-3">GRA 321</p>
+        <li class="list-4"><a href="project1.html" title="Code Pen" class="current-page">Code Pen</a></li>
+        <li class="list-4"><a href="project1.html" title="Project 1">Single Page Website</a></li>
+        <li class="list-4"><a href="project1.html" title="Project 1">Symbol Motion</a></li>
+        <li class="list-5"><a href="project1.html" title="Project 1">Website Animation</a></li>
+        <p class="list-2">Spring 2022</p>
+        <p class="list-3">GRA 322</p>
+        <li class="list-4"><a href="project1.html" title="Project 1">Responsive Layout</a></li>
+        <li class="list-4"><a href="project1.html" title="Project 1">Mobile App</a></li>
+        <li class="list-4"><a href="project1.html" title="Project 1">Charlie's Website</a></li>
+        <li class="list-5"><a href="project1.html" title="Project 1">Program Website</a></li>
+        <p class="list-3">GRA 362</p>
+        <li class="list-4"><a href="project1.html" title="Project 1">MLK Committee</a></li>
+        <li class="list-4"><a href="project1.html" title="Project 1">Dramaturgy Display</a></li>
+        <li class="list-5"><a href="project1.html" title="Project 1">PSAid Digital Image</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="Title">
-    <h3>Fall 2021 > GRA 321 > Project X</h3>
-    <h1>Project Title</h1>
+  <section class="title">
+    <p class="subtle">Fall 2021 > GRA 321 > Project 1</p>
+    <h1>Code Pen</h1>
     <p>Business-to-consumer early adopters entrepreneur focus stock incubator equity channels gamification gen-z conversion mass market beta launch party. Stock crowdsource value proposition research & development market prototype. Strategy iPad prototype advisor agile development validation marketing partnership niche market launch party.</p>
   </section>
 
@@ -59,14 +78,14 @@
 
   <section class="final">
     <h3>Final</h3>
-    <img src="https://picsum.photos/400/800" alt="placeholder">
+    <img class="final-image" src="https://picsum.photos/600/800" alt="placeholder">
   </section>
 
   <footer>
     <section class="program">
       <h3>Arizona State University</h3>
       <h3>The Design School</h3>
-      <h3>Visual Communication design</h3>
+      <h3>Visual Communication Design</h3>
     </section>
     
     <h3>Contact me</h3>
@@ -78,6 +97,7 @@
 
 
   <!-- Load Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="js/scripts.js"></script>
 
 </body>
