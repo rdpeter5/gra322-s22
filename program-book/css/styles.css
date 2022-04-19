@@ -7,14 +7,12 @@ body {
     font-family: agenda,sans-serif;
     font-weight: 400;
     font-style: normal;
-    max-width: 900px;
-     margin: auto;
+    margin: auto;
     
 }
 
 header{
     background-color: #d6d6d6;
-    max-width: 900px;
     Padding: 1rem 3rem 1rem 3rem;
 }
 
@@ -63,24 +61,59 @@ ul {
 
 .title {
     margin: 2rem 3rem;
-    max-width: 900px;
 }
 
 .subtle {
     margin-bottom: 1rem;
-    max-width: 900px;
 }
 
 
 
 .process {
-    display: flex;
     margin: 2rem 3rem;
-    max-width: 900px;
 }
 
-th {
-    padding-right: 2rem;
+.process-image {
+    margin: 2rem 0rem 0rem 4rem;
+    object-fit: cover;
+    height: 80%;
+    width: 80%;
+}
+
+.process-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 800px) {
+    .process-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-right: 4rem;
+    }
+
+    .final-image {
+        margin: 2rem 0rem 0rem 4rem;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .process-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    body {
+        max-width: 1000px;
+    }
+
+    .final-image {
+        margin: 2rem 0rem 0rem 4rem;
+        width: 120%;
+        height: auto;
+    }
 }
 
 .final {
@@ -88,11 +121,11 @@ th {
     padding: 0rem 3rem 3rem 3rem;
     line-height: 4rem;
     margin: 2rem 0rem;
-    max-width: 900px;
 }
 
 .final-image {
-    max-width: 100%;
+    margin: 2rem 0rem 0rem 4rem;
+    width: 80%;
     height: auto;
 }
 
@@ -101,10 +134,8 @@ th {
 footer {
     margin: 2rem 3rem;
     padding-bottom: 3rem;
-    max-width: 900px;
 }
 
 .program {
     margin-bottom: 1rem;
-    max-width: 900px;
 }
