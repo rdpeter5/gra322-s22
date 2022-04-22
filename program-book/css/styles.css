@@ -86,7 +86,7 @@ ul {
 }
 
 @media screen and (min-width: 800px) {
-    .process-grid {
+    .process-grid2 {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-right: 4rem;
@@ -97,10 +97,15 @@ ul {
         width: 100%;
         height: auto;
     }
-}
+
+    .process-grid3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    }
 
 @media screen and (min-width: 1000px) {
-    .process-grid {
+    .process-grid2 {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -113,6 +118,11 @@ ul {
         margin: 2rem 0rem 0rem 4rem;
         width: 120%;
         height: auto;
+    }
+   
+    .process-grid3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -166,4 +176,8 @@ footer {
 
 .spring22 {
     margin-top: 2rem;
+}
+
+.media {
+    margin: 1rem;
 }
