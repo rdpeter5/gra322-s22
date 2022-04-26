@@ -85,6 +85,10 @@ ul {
     grid-template-columns: 1fr;
 }
 
+.media {
+    margin: 1rem 0rem;
+}
+
 @media screen and (min-width: 800px) {
     .process-grid2 {
         display: grid;
@@ -101,6 +105,10 @@ ul {
     .process-grid3 {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .media {
+        margin: 1rem 1rem;
     }
     }
 
@@ -124,6 +132,11 @@ ul {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    .media {
+        margin: 1rem 1rem;
+    }
+    
 }
 
 .final {
@@ -176,8 +189,4 @@ footer {
 
 .spring22 {
     margin-top: 2rem;
-}
-
-.media {
-    margin: 1rem;
 }
